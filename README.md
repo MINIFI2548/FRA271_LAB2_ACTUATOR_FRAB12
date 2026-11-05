@@ -11,17 +11,14 @@
 
 ![NUCLEO-G474RE Pinout](docs/images/nucleo_g474_pinout.png)
 
-> ขั้นตอนการประกอบ/ถอดเปลี่ยนมอเตอร์ และการใช้ Oscilloscope ดูใน **Manual** ของ Lab 2
-
 ## 1. การต่อสายไฟ (DC Motor / Stepper)
 
-**DC Motor**
+- **DC Motor:** ต่อสายมอเตอร์เข้ากับ Motor Driver โดยให้มีสาย 1 เส้นร้อยผ่าน Current Sensor
+- **Stepper Motor:** ต่อสายเฟส A และ B เข้ากับ terminal บนบอร์ดทดลอง ที่เป็นชุดซึ่งเขียนว่า **Stepper**
 
-![เดินสาย DC Motor](docs/images/ph_dc_driver_wiring.png)
+> **เช็คสายเฟส (Stepper):** สายในเฟสเดียวกันจะเชื่อมต่อกัน ใช้ Multimeter วัดความต่อเนื่อง (Continuity) ได้ ถ้าสองเส้นเชื่อมกัน แปลว่าเป็นเฟสเดียวกัน
 
-**Stepper Motor**
-
-![ต่อสาย Stepper คู่ A/B](docs/images/ph_stepper_wiring_ab.png)
+ภาพประกอบการต่อสายดูใน **Manual** ของ Lab 2
 
 | หน้าที่ | Pin |
 |---|---|

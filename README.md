@@ -15,17 +15,13 @@
 
 ## 1. การต่อสายไฟ (DC Motor / Stepper)
 
-ใช้บอร์ดตัวเดียวกัน เปลี่ยนเฉพาะมอเตอร์
-
-**DC Motor** — ต่อสายมอเตอร์เข้า Motor driver (Cytron MDXX) โดย**ร้อยสายไฟเส้นเดียวผ่าน Current Sensor** (อ่านที่ PA1) อย่าร้อยทั้งคู่ เพราะกระแสหักล้างกัน
+**DC Motor**
 
 ![เดินสาย DC Motor](docs/images/ph_dc_driver_wiring.png)
 
-**Stepper Motor** — ต่อสายคู่ **A** และคู่ **B** เข้ากับขั้ว A, B บนบอร์ด
+**Stepper Motor**
 
 ![ต่อสาย Stepper คู่ A/B](docs/images/ph_stepper_wiring_ab.png)
-
-> ถ้าไม่รู้ว่าสายไหนคู่กัน ใช้ Multimeter โหมด Continuity แตะสายทีละคู่ ถ้ามีเสียงบี๊บ/ค่าต่ำ แปลว่าเป็นคอยล์เดียวกัน
 
 | หน้าที่ | Pin |
 |---|---|
